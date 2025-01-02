@@ -4,7 +4,7 @@ int main()
 {
 int n=4;
 int number=1;
-for(int i=0;i<n;i++){
+for(int i=0;i<n;i++){ //triangle pattern
     for(int j=0;j<i+1;j++){
         cout<<i+1;
         number++;
